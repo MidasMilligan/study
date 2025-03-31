@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+  web_dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    links:
+      - redis_dev
+    ports:
+      - "8080:80"
+      
+  redis_dev:
+    image: redis
+
