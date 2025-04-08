@@ -1,1 +1,1 @@
-It's my first stady rep.
+It's my first study rep.
